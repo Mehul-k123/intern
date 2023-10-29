@@ -128,7 +128,8 @@ table td {
 }
 
 
-@media only screen and (max-width: 600px) {
+
+@media screen and (max-width: 768px) {
     .tableItems {
         width: 90%;
     }

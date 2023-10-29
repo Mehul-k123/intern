@@ -351,42 +351,6 @@ footer .footerdesc {
         margin-right: -40px;
     }
 
-    .hero h3 {
-        width: 100%;
-    }
-
-    .tabs {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .sub-tab {
-        width: 90%;
-    }
-
-    .featureSection {
-        flex-direction: column;
-    }
-
-    .tabGroup {
-        width: 100%;
-        padding: 5px;
-    }
-
-    .ecoSystem h1 {
-        width: 100%;
-    }
-
-    .innerCard {
-        flex-direction: column;
-    }
-
-    .ecoSystem .cards {
-        width: 100%;
-        margin: 10px;
-        margin-left: 25px;
-    }
-
     .social-logos {
         gap: 30px;
     }
@@ -478,6 +442,39 @@ footer .footerdesc {
 
     .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
+    }
+    .hero h3 {
+        width: 100%;
+    }
+    .ecoSystem h1 {
+        width: 100%;
+    }
+    .ecoSystem .cards {
+        width: 100%;
+        margin: 10px;
+        margin-left: 25px;
+    }
+    
+    .tabs {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sub-tab {
+        width: 90%;
+    }
+
+    .featureSection {
+        flex-direction: column;
+    }
+
+    .tabGroup {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .innerCard {
+        flex-direction: column;
     }
 
 }
