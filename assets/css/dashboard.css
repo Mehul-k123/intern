@@ -128,20 +128,26 @@ table td {
 }
 
 
+@media only screen and (max-width: 600px) {
+    .index {
+    width:26.5rem !important;
+    }
+}
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .tableItems {
         width: 90%;
     }
 
     .pietab {
         flex-direction: column;
+        align-items: center;
     }
     .mainItem {
         width: 100%;
     }
     .index {
-        width: 26.5rem;
+    width:100%;
         margin-left: -2rem;
     }
 }

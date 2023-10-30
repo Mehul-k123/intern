@@ -347,10 +347,6 @@ footer .footerdesc {
         padding: 5px 5px;
     }
 
-    .logo {
-        margin-right: -40px;
-    }
-
     .social-logos {
         gap: 30px;
     }
@@ -364,7 +360,7 @@ footer .footerdesc {
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     nav {
         height: 75px;
     }
